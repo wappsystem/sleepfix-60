@@ -1,0 +1,53 @@
+<div id=D__ID>
+    <!-- Banner  -->
+    <div class="banner_wrap">
+        <div class="col-lg-11 col-xl-11 col-md-12 col-sm-12 my_px m-auto">
+            <div class="banner_content">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <h3>Welcome to the SleepFix60 Study.</h3>
+                    <p>An online research study to improve your
+                        <br>sleep and daytime functioning</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner  -->
+
+   <!-- Membership text -->
+   <div class="home_content_wrap" id="about">
+	<div class="col-lg-11 col-xl-11 m-auto">
+		<div class="home_content_content">
+			<p>You have been invited to take part in an online research study using a
+				<br>new smartphone application that aims to improve your sleep and
+				<br>daytime functioning.
+				<br>
+				<br>SleeFix is a smartphone application designed to treat insomnia using
+				<br>sleep consolidation therapy. Sleep consolidation therapy works to
+				<br>improve the balance between actual sleep time and the total amount of
+				<br>time spent in bed.
+				<br>
+				<br>This study is for individuals who have sleep problems, are over the age
+				<br>of 60 and have access to a smartphone.
+				<br>
+				<br>To determine if you are eligible to participate, you will be asked to
+				<br>complete a short series of questionnaires (max. 5-10 minutes).
+				<br>you will know right away if you are eligble for the study.
+				<br>
+				<br>You participation in this study is voluntary</p>
+				<a id=next__ID class="btn btn-secondary display-4 text-light" >Next &gt;</a>
+		</div>
+		
+	</div>
+</div>
+<script>
+		function F__ID(){
+			var m=$vm.module_list['__MODULE__'];
+			if(m.prefix==undefined) m.prefix="";
+			$('#next__ID').on('click',function(){	$vm.load_module(m.prefix+'page1-form','',{});	})
+		}
+		$vm.home_ready=1;
+	</script>
+	<style>
+		VmInclude:m/style.css
+	</style>
+</div>

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    height: 100%;
+}
+p, h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-toggle .custom-control-input:checked~.custom-control-label::before {
+    background: #404a7c!important;
+    border-color: #404a7c!important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #404a7c!important;
+}
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
+    background-color:#404a7c!important;
+}
+/* Header */
+.main_nav{
+    background: transparent!important;
+    color: #fff!important;
+    padding-left: 54px!important;
+    padding-right: 25px!important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    z-index: 99999;
+}
+.main_nav .nav-item{
+    margin-right: 7px;
+    padding-right: 7px;
+    position: relative;
+    border-right: 2px solid #fff;
+}
+.main_nav img{
+    width:200px;
+}
+.main_nav.scrolled {
+    transition: background-color 0.5s ease;
+    background-color: #404a7c !important;
+ }
+ .main_nav.scrolled img{
+    width:200px;
+}
+/* End Header  */
+
+
+
+/* Home Banner  */
+.banner_wrap{
+    height: 635px;
+    display: flex;
+    align-items: center;
+    background: url(images/banner_bg.png)no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    margin-top: 0;
+    z-index: 0;
+    padding-left: 100px;
+}
+.banner_content h3{
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 48px;
+}
+.banner_content p{
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+/* End Banner  */
+
+/* Form Banner  */
+.form_banner_wrap{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background: url(images/masthead_form-image.png)no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    margin-top: 0;
+    z-index: 0;
+    padding-left: 100px;
+}
+/* End Banner  */
+
+/* Text wrap  */
+.home_content_wrap, .form_content_wrap{
+    background: #fff;
+    display: flex;
+    padding: 50px 100px;
+}
+
+.home_content_content h3, .form_content_wrap h3{
+	font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.home_content_content p, .form_content_wrap p{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.home_content_content a.btn.btn-secondary.display-4 {
+    background-color: #404a7c;
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.form_question_wrap{
+    background: #f5f6f8;
+    display: flex;
+    padding: 50px 100px;
+}
+
+.form_question_wrap .question-tag{
+    color: #404a7c!important;
+    margin-top: 20px;
+}
+/* End content  */
+
+
+/* Footer Wrap  */
+.footer_wrap{
+    background: #404a7c;
+    color: #fff;
+}
+.footer_list_one{
+    display: flex;
+    align-items: center;
+}
+.footer_content .img-fluid{
+    width:100%;
+}
+/* End Footer  */

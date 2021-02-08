@@ -1,0 +1,20 @@
+<section>
+  VmInclude:__COMPONENT__/g/grid.01.html
+</section>
+<script>
+  function F__ID(){
+      //-------------------------------------
+      VmInclude:__COMPONENT__/g/grid.01.js
+      //-------------------------------------
+      $('#title__ID').text('Hush Study recruitment')
+      //-------------------------------------
+      var fields="screening_number";
+      fields+=",age,english,internet,email,insomnia,other_health,cannabis,time";
+      fields+=",ISI_1a,ISI_1b,ISI_1c,ISI_2,ISI_3,ISI_4,ISI_5,ISI_1,ISI";
+      m.fields=""+fields+",Submit_date,Submitted_by,_Delete";
+      //-------------------------------------
+  }
+</script>
+<style>
+  VmInclude:__COMPONENT__/g/grid.01.css
+</style>
